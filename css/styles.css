@@ -1,0 +1,264 @@
+/*
+ *
+ *   #                       Redkitty Software, Roger Gerecke
+ *  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *  #
+ *  # Copyright 1986-2016. Redkitty Software, Roger Gerecke. All Rights Reserved.
+ *  # This file may not be redistributed in whole or significant part.
+ *  # Content of this file is Protected By International Copyright Laws.
+ *  #
+ *  # ~~~~~~ Redkitty Software ~~~~~~~
+ *  #
+ *  # https://redkitty.org
+ *  #
+ *  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *  #
+ *  # @version $Id$
+ *  # @copyright Redkitty Software, https://redkitty.org
+ *  #
+ *  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *  #
+ *  # Redkitty Software, Roger Gerecke, Feldkamp 3, 24576 Hitzhusen, Germany
+ *  #
+ *  # roger.gerecke@redkitty.org
+ *  #
+ *
+ */
+body {
+	font-family: 'Raleway', sans-serif;
+	}
+
+h1, h2, h3, h4, h5, h6, .h1 {
+	font-size: 3em;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-top: 30px;
+	}
+
+#brand-header {
+	margin-top: 3em;
+	margin-bottom: 2em;
+	}
+
+.cop-font {
+	font-size: 5em;
+	font-weight: 900;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	}
+
+.cop-font-color {
+	color: #fc5a0a;
+	background: -webkit-linear-gradient(#ff5b0a, #fa420a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	}
+
+.cop-font-dark {
+	color: #272d33;
+	}
+
+.slogan {
+	font-size: 2em;
+	vertical-align: top;
+	line-height: 1.1;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	}
+
+.sub-line {
+	font-size: 3em;
+	vertical-align: top;
+	line-height: 1.1;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	}
+
+.bh-quest {
+	text-align: right;
+	font-size: 1em;
+	font-weight: 900;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	}
+
+.bh-tel-number {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: right;
+	color: #9a9a9a;
+	font-size: 3em;
+	font-weight: 900;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	}
+
+.bh-opening {
+	text-align: right;
+	color: #9a9a9a;
+	font-size: 1em;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	}
+
+#main-content {
+	min-height: 450px;
+	margin-top: 40px;
+	background-image: url("../images/b.jpg");
+
+	}
+
+#main-content-4 {
+	min-height: 450px;
+	margin-top: 40px;
+	background-image: url("../images/bmw-trapezblech-halle.jpg");
+
+	}
+
+/* NAVIGATION */
+#main-navigation {
+	margin-top: 25px;
+
+	}
+#main-navigation, .navbar-dark {
+	background: #272d33;
+	border-radius: 0;
+	border: #272d33;
+	box-shadow: none;
+	}
+
+.navbar-dark .navbar-nav .nav-item {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-shadow: none;
+	color: #fff;
+}
+
+
+.navbar-dark .nav-item:hover, .navbar-dark .nav-item:focus {
+	background: none;
+	color: #fff;
+	border-bottom: 0.4em solid #fc5a0a;
+	margin-bottom: -0.4em;
+	}
+
+.navbar-dark .navbar-nav > .open > a, .navbar-dark .navbar-nav > .open > a:hover, .navbar-dark .navbar-nav > .open > a:focus {
+	background: none;
+	color: #fff;
+	border-bottom: 0.4em solid #fc5a0a;
+	margin-bottom: -0.4em;
+	}
+
+/* ORANGE HIGLIGHT BOX */
+.bg-danger {
+	margin-top: 0.5em;
+	padding-bottom: 2em;
+	color: #fff;
+	background-color: rgba(252, 90, 10, 0.9)!important;
+	}
+
+.txt-in-box {
+	width: 68%;
+	}
+
+.caption {
+	width: 70%;
+	left: 12px;
+	bottom: 12px;
+	}
+
+.img-bg {
+	min-height: 360px;
+	padding: 12px;
+	}
+
+/* BUTTONS
+.btn {
+	position: absolute;
+	font-size: 3.3em;
+	float: right;
+	border-radius: 0;
+	border-width: 3px;
+	bottom: 1em;
+	right: 1em;
+	}
+
+.btn-default {
+	background: none;
+	text-shadow: none;
+	border-color: #fff;
+	color: #fff;
+	}
+
+.btn-default:hover {
+	background: #272d33;
+	color: #fff;
+	border-color: #fff;
+	}
+
+#main-content-4 .btn-call {
+	background: #272d33;
+	font-size: 1em;
+	float: none;
+	color: #fff;
+	right: 2em;
+	bottom: 1em;
+	}
+.block{
+	height: 2em;
+	width: 100%;
+	display: block;
+	}
+#main-content-4 .btn-call:hover {
+	background: #568ABD;
+	}
+
+/* was wir tun */
+#work-space {
+	color: #fff;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	}
+#work-space .row{
+	margin-bottom: 30px;
+	}
+
+#work-space .col-md-6 h3 {
+	margin-top: 2em;
+	}
+
+#block-one .img-bg {
+	background-image: url("../images/trapezblech-leistung-panel.jpg");
+	}
+
+#block-tow .img-bg {
+	background-image: url("../images/dach.jpg");
+	}
+
+#block-three .img-bg {
+
+	background-image: url("../images/trapezblech-leistung-panel.jpg");
+	}
+
+#block-four .img-bg {
+
+	background-image: url("../images/dach.jpg");
+	}
+
+#main-footer {
+	color: #fff;
+	margin-top: 3em;
+	padding-top: 3em;
+	background: #272d33;
+	}
